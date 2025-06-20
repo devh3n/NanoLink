@@ -1,0 +1,15 @@
+{
+    "name": "n3x74/nanolink",
+    "description": "NanoLink is a minimal, stateless, and zero-dependency PHP URL shortener built with SQLite and Medoo.",
+    "type": "library",
+    "require": {
+        "catfan/medoo": "^2.2"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "N3x74\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
